@@ -988,11 +988,35 @@ img {
 
 .footer-bottom {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .footer-bottom p {
     font-size: 0.8125rem;
     color: var(--color-text-muted);
+}
+
+.footer-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #25D366;
+    transition: var(--transition);
+}
+
+.footer-whatsapp:hover {
+    color: #128C7E;
+}
+
+.footer-credit {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-top: 0.5rem;
 }
 
 /* ================================
