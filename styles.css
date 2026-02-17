@@ -3,13 +3,14 @@
    ================================ */
 
 :root {
-    /* Colors */
+    /* Colors - matched from Trudysales logo */
     --color-bg: #0D0D0D;
     --color-bg-light: #1A1A1A;
     --color-bg-card: #242424;
     --color-primary: #3B4D9E;
-    --color-accent: #FF6B35;
-    --color-accent-gradient: linear-gradient(135deg, #FF6B35 0%, #F7931E 50%, #FF6B35 100%);
+    --color-accent: #3B4D9E;
+    --color-accent-light: #4A5FB2;
+    --color-accent-gradient: linear-gradient(135deg, #2E3D7A 0%, #3B4D9E 50%, #4A5FB2 100%);
     --color-white: #FFFFFF;
     --color-text: #FFFFFF;
     --color-text-muted: #888888;
@@ -139,7 +140,6 @@ input, textarea, select {
 .logo-image {
     height: 40px;
     width: auto;
-    filter: brightness(0) invert(1);
 }
 
 .nav-links {
@@ -717,7 +717,7 @@ input, textarea, select {
 
 .btn-submit:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 10px 30px rgba(59, 77, 158, 0.4);
 }
 
 /* ================================
@@ -746,7 +746,6 @@ input, textarea, select {
 .footer-logo {
     height: 40px;
     margin-bottom: var(--space-sm);
-    filter: brightness(0) invert(1);
 }
 
 .footer-brand p {
